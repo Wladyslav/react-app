@@ -1,0 +1,38 @@
+.wrapper {
+  background-image: linear-gradient(
+    to top,
+    lightgrey 0%,
+    lightgrey 1%,
+    #e0e0e0 26%,
+    #efefef 48%,
+    #d9d9d9 75%,
+    #bcbcbc 100%
+  );
+  display: flex;
+  grid-area: header;
+  justify-content: center;
+}
+
+.slide {
+  width: 90%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 80px;
+  // max-width: 600px;
+
+  .slide__text {
+    flex-basis: 30px;
+    flex-grow: 1;
+    max-width: 480px;
+    @media screen and (min-width: (460px)) {
+      font-size: 35px;
+    }
+  }
+  .slide__image {
+    width: 50vw;
+    height: 50vw;
+    max-width: 350px;
+    max-height: 350px;
+  }
+}

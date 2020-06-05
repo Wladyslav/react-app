@@ -1,26 +1,36 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from "react";
+import { Route, BrowserRouter, Switch } from "react-router-dom";
+import Navbar from "./components/navbar/navbar";
+import Nav from "./components/navigation/nav";
+import StartPageView from "./pages/mainPage/startPageView/StartPageView";
+import PrintersView from "./pages/printersView/PrintersView";
+import MaterialsView from "./pages/materialsView/MaterialsView";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component {
+  state = {
+    isNavOpen: false,
+  };
+  openNav = () => {
+    this.setState((prevState) => ({
+      isNavOpen: !prevState.isNavOpen,
+    }));
+  };
+  render() {
+    const { isNavOpen } = this.state;
+
+    return (
+      <BrowserRouter>
+        <>
+          {isNavOpen && <Nav />}
+          <Navbar openNav={this.openNav} />
+          <Switch>
+            <Route exact path="/" component={StartPageView} />
+            <Route path="/printers" component={PrintersView} />
+            <Route path="/materials" component={MaterialsView} />
+          </Switch>
+        </>
+      </BrowserRouter>
+    );
+  }
 }
-
 export default App;

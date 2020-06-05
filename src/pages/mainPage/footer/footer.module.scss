@@ -1,0 +1,18 @@
+.footer {
+  margin: 0 auto;
+  grid-area: footer;
+  max-width: 1000px;
+  width: 98vw;
+  .name {
+    font-size: 22px;
+    margin: 10px;
+    border-bottom: 5px solid rgb(233, 233, 233);
+  }
+}
+.about {
+  margin-top: 20px;
+  text-align: center;
+  .shop {
+    font-size: 18px;
+  }
+}
