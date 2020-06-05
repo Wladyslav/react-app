@@ -21,8 +21,8 @@ class App extends Component {
     return (
       <BrowserRouter>
         <>
-          {isNavOpen && <Nav />}
-          <Navbar openNav={this.openNav} />
+          <Nav navStatus={isNavOpen} />
+          <Navbar openNav={this.openNav} navStatus={isNavOpen} />
           <Switch>
             <Route exact path="/" component={StartPageView} />
             <Route path="/printers" component={PrintersView} />

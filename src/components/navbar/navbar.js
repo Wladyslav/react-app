@@ -1,14 +1,17 @@
 import React from "react";
 import styles from "./navbar.module.scss";
 
-const Navbar = ({ openNav }) => (
+const Navbar = ({ openNav, navStatus }) => (
   <div className={styles.navbar}>
     <div className={styles.logo}>
-      {/* <a href="#" class={styles.navbar__imageLink}> */}
       <img src="../" alt="" className={styles.logoImage} />
-      {/* </a> */}
     </div>
-    <div onClick={openNav} className={styles.hamburger}>
+    <div
+      onClick={openNav}
+      className={
+        navStatus ? `${styles.hamburger} ${styles.open}` : `${styles.hamburger}`
+      }
+    >
       <div className={styles.btn}></div>
     </div>
   </div>

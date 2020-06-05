@@ -2,8 +2,12 @@ import React from "react";
 import styles from "./nav.module.scss";
 import { NavLink } from "react-router-dom";
 
-const Nav = () => (
-  <nav className={styles.navigation}>
+const Nav = ({ navStatus }) => (
+  <nav
+    className={
+      navStatus ? `${styles.navigation} ${styles.open}` : `${styles.navigation}`
+    }
+  >
     <ul className={styles.list}>
       <li className={styles.item}>
         <NavLink
