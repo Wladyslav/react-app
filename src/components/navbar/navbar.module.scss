@@ -13,27 +13,50 @@
   border-radius: 75px;
 
   .logo {
-    margin-left: 10px;
+    margin-left: 6px;
     margin-top: auto;
     margin-bottom: auto;
-
-    .imageLink {
-      .logoImage {
-        height: 40px;
-        border-radius: 40%;
+    .picture {
+      .logoMobi {
         vertical-align: middle;
+        height: 50px;
+      }
+    }
+  }
+  .desctopNav {
+    display: none;
+    font-size: 18px;
+    @media screen and (min-width: (1000px)) {
+      display: block;
+    }
+
+    .navList {
+      display: flex;
+      .navItem {
+        list-style: none;
+        margin: 20px;
+
+        .itemLink {
+          text-decoration: none;
+          color: black;
+          padding-bottom: 3px;
+          &:hover {
+            border-bottom: 2px solid rgb(233, 233, 233);
+          }
+        }
       }
     }
   }
 }
+
 .hamburger {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 30px;
   height: 30px;
-  margin-right: 20px;
-  @media screen and (min-width: (1200px)) {
+  margin-right: 25px;
+  @media screen and (min-width: (1000px)) {
     display: none;
   }
   cursor: pointer;

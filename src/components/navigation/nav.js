@@ -11,6 +11,16 @@ const Nav = ({ navStatus }) => (
     <ul className={styles.list}>
       <li className={styles.item}>
         <NavLink
+          exact
+          activeClassName={styles.itemLinkActive}
+          className={styles.itemLink}
+          to="/"
+        >
+          Strona główna
+        </NavLink>
+      </li>
+      <li className={styles.item}>
+        <NavLink
           activeClassName={styles.itemLinkActive}
           className={styles.itemLink}
           to="/printers"

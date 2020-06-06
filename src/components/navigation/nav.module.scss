@@ -11,16 +11,27 @@
   );
   top: 0;
   left: -100%;
-  transition: all 1s ease-in-out;
+  transition: all 0.5s ease-in-out;
   &.open {
     left: 0;
   }
 }
 .list {
+  margin: 40px;
+
   .item {
+    font-size: 18px;
+    padding: 10px;
+    margin-bottom: 20px;
+    list-style: none;
+
     &Link {
+      text-decoration: none;
+      color: black;
+      padding-bottom: 10px;
+
       &Active {
-        font-weight: 700;
+        font-weight: 600;
       }
     }
   }
