@@ -1,6 +1,6 @@
 import React from "react";
-import styles from "./printer.module.scss";
-const Printer = ({ image, alt, description, product, price }) => (
+import styles from "./item.module.scss";
+const Item = ({ image, alt, description, product, price }) => (
   <div className={styles.printer}>
     <img className={styles.image} src={image} alt={alt} />
     <h2 className={styles.productName}>{product}</h2>
@@ -9,4 +9,4 @@ const Printer = ({ image, alt, description, product, price }) => (
   </div>
 );
 
-export default Printer;
+export default Item;

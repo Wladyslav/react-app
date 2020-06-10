@@ -7,7 +7,7 @@ import device from "../../../files/icon-gilotin.svg";
 import stuff from "../../../files/icon-erector.svg";
 
 const Main = () => (
-  <main className={styles.main} id="category">
+  <main className={styles.main}>
     <h1 className={styles.catName}>KATEGORIE PRODUKTÓW</h1>
     <div className={styles.products}>
       <Product
@@ -26,13 +26,13 @@ const Main = () => (
         name="Urządzenie biurowe"
         picture={device}
         description="device"
-        pathPage=""
+        pathPage="/devices"
       />
       <Product
         name="Artykuły biurowe"
         picture={stuff}
         description="office stuff"
-        pathPage=""
+        pathPage="/articles"
       />
     </div>
   </main>

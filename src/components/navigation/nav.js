@@ -41,7 +41,7 @@ const Nav = ({ navStatus }) => (
         <NavLink
           activeClassName={styles.itemLinkActive}
           className={styles.itemLink}
-          to=""
+          to="/devices"
         >
           Urządzenie biurowe
         </NavLink>
@@ -50,7 +50,7 @@ const Nav = ({ navStatus }) => (
         <NavLink
           activeClassName={styles.itemLinkActive}
           className={styles.itemLink}
-          to=""
+          to="/articles"
         >
           Artykuły biurowe
         </NavLink>
@@ -59,20 +59,12 @@ const Nav = ({ navStatus }) => (
         <NavLink
           activeClassName={styles.itemLinkActive}
           className={styles.itemLink}
-          to=""
+          to="/service"
         >
           Serwis
         </NavLink>
       </li>
-      <li className={styles.item}>
-        <NavLink
-          activeClassName={styles.itemLinkActive}
-          className={styles.itemLink}
-          to=""
-        >
-          Promocje
-        </NavLink>
-      </li>
+
       <li className={styles.item}>
         <NavLink
           activeClassName={styles.itemLinkActive}

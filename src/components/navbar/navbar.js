@@ -10,7 +10,7 @@ const Navbar = ({ openNav, navStatus }) => (
     <div className={styles.logo}>
       <Link className={styles.link} to="/">
         <picture className={styles.picture}>
-          <source media="(min-width: 460px)" srcset={logo} />
+          <source media="(min-width: 460px)" srcSet={logo} />
           <img src={logoMobi} alt="" className={styles.logoMobi} />
         </picture>
       </Link>
@@ -18,14 +18,68 @@ const Navbar = ({ openNav, navStatus }) => (
     <div className={styles.desctopNav}>
       <ul className={styles.navList}>
         <li className={styles.navItem}>
-          <NavLink className={styles.itemLink} to="/">
+          <NavLink
+            exact
+            activeClassName={styles.itemLinkActive}
+            className={styles.itemLink}
+            to="/"
+          >
             Strona główna
           </NavLink>
         </li>
         <li className={styles.navItem}>
-          <a href="#category" className={styles.itemLink}>
-            Kategorie produktów
-          </a>
+          <NavLink
+            activeClassName={styles.itemLinkActive}
+            className={styles.itemLink}
+            to="/printers"
+          >
+            Drukarki
+          </NavLink>
+        </li>
+        <li className={styles.navItem}>
+          <NavLink
+            activeClassName={styles.itemLinkActive}
+            className={styles.itemLink}
+            to="/materials"
+          >
+            Materiały eklspoatacyjne
+          </NavLink>
+        </li>
+        <li className={styles.navItem}>
+          <NavLink
+            activeClassName={styles.itemLinkActive}
+            className={styles.itemLink}
+            to="/devices"
+          >
+            Urządzenia biurowe
+          </NavLink>
+        </li>
+        <li className={styles.navItem}>
+          <NavLink
+            activeClassName={styles.itemLinkActive}
+            className={styles.itemLink}
+            to="/articles"
+          >
+            Artykuły biurowe
+          </NavLink>
+        </li>
+        <li className={styles.navItem}>
+          <NavLink
+            activeClassName={styles.itemLinkActive}
+            className={styles.itemLink}
+            to="/service"
+          >
+            Serwis
+          </NavLink>
+        </li>
+        <li className={styles.navItem}>
+          <NavLink
+            activeClassName={styles.itemLinkActive}
+            className={styles.itemLink}
+            to="/materials"
+          >
+            Kontakt
+          </NavLink>
         </li>
       </ul>
     </div>
