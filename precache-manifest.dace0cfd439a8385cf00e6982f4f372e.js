@@ -1,27 +1,35 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b7ac2cfa1319ab9d1fc0f1c1e96fd741",
+    "revision": "82ef07dcbe2893fa01278557a8e00bb4",
     "url": "/react-app/index.html"
   },
   {
-    "revision": "9878842d567b41875d39",
-    "url": "/react-app/static/css/main.8cc14674.chunk.css"
+    "revision": "042706ef5395375dfbda",
+    "url": "/react-app/static/css/main.e31dda89.chunk.css"
   },
   {
-    "revision": "82f865fb3d7d0a5b2a1a",
-    "url": "/react-app/static/js/2.9f7a3360.chunk.js"
+    "revision": "5076b661a8150c6238d8",
+    "url": "/react-app/static/js/2.704982a1.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/react-app/static/js/2.9f7a3360.chunk.js.LICENSE.txt"
+    "url": "/react-app/static/js/2.704982a1.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "9878842d567b41875d39",
-    "url": "/react-app/static/js/main.db0c51ad.chunk.js"
+    "revision": "042706ef5395375dfbda",
+    "url": "/react-app/static/js/main.bb89bc7c.chunk.js"
   },
   {
     "revision": "f836dca652dae7b1693f",
     "url": "/react-app/static/js/runtime-main.f77147b9.js"
+  },
+  {
+    "revision": "d79c90c65b10306218f167c4e428cac2",
+    "url": "/react-app/static/media/Kyocera TK140.d79c90c6.png"
+  },
+  {
+    "revision": "7048da230f957042c6531ee1945b63f9",
+    "url": "/react-app/static/media/P2235DN.7048da23.png"
   },
   {
     "revision": "c7352947e7c5c92f63659ba5b81aae63",

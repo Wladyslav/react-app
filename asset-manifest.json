@@ -1,17 +1,19 @@
 {
   "files": {
-    "main.css": "/react-app/static/css/main.8cc14674.chunk.css",
-    "main.js": "/react-app/static/js/main.db0c51ad.chunk.js",
-    "main.js.map": "/react-app/static/js/main.db0c51ad.chunk.js.map",
+    "main.css": "/react-app/static/css/main.e31dda89.chunk.css",
+    "main.js": "/react-app/static/js/main.bb89bc7c.chunk.js",
+    "main.js.map": "/react-app/static/js/main.bb89bc7c.chunk.js.map",
     "runtime-main.js": "/react-app/static/js/runtime-main.f77147b9.js",
     "runtime-main.js.map": "/react-app/static/js/runtime-main.f77147b9.js.map",
-    "static/js/2.9f7a3360.chunk.js": "/react-app/static/js/2.9f7a3360.chunk.js",
-    "static/js/2.9f7a3360.chunk.js.map": "/react-app/static/js/2.9f7a3360.chunk.js.map",
+    "static/js/2.704982a1.chunk.js": "/react-app/static/js/2.704982a1.chunk.js",
+    "static/js/2.704982a1.chunk.js.map": "/react-app/static/js/2.704982a1.chunk.js.map",
     "index.html": "/react-app/index.html",
-    "precache-manifest.2b06a125bf32c37e030750415a045903.js": "/react-app/precache-manifest.2b06a125bf32c37e030750415a045903.js",
+    "precache-manifest.dace0cfd439a8385cf00e6982f4f372e.js": "/react-app/precache-manifest.dace0cfd439a8385cf00e6982f4f372e.js",
     "service-worker.js": "/react-app/service-worker.js",
-    "static/css/main.8cc14674.chunk.css.map": "/react-app/static/css/main.8cc14674.chunk.css.map",
-    "static/js/2.9f7a3360.chunk.js.LICENSE.txt": "/react-app/static/js/2.9f7a3360.chunk.js.LICENSE.txt",
+    "static/css/main.e31dda89.chunk.css.map": "/react-app/static/css/main.e31dda89.chunk.css.map",
+    "static/js/2.704982a1.chunk.js.LICENSE.txt": "/react-app/static/js/2.704982a1.chunk.js.LICENSE.txt",
+    "static/media/Kyocera TK140.png": "/react-app/static/media/Kyocera TK140.d79c90c6.png",
+    "static/media/P2235DN.png": "/react-app/static/media/P2235DN.7048da23.png",
     "static/media/icon-erector.svg": "/react-app/static/media/icon-erector.c7352947.svg",
     "static/media/icon-gilotin.svg": "/react-app/static/media/icon-gilotin.c672b0c5.svg",
     "static/media/icon-materials.svg": "/react-app/static/media/icon-materials.223225ab.svg",
@@ -22,8 +24,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.f77147b9.js",
-    "static/js/2.9f7a3360.chunk.js",
-    "static/css/main.8cc14674.chunk.css",
-    "static/js/main.db0c51ad.chunk.js"
+    "static/js/2.704982a1.chunk.js",
+    "static/css/main.e31dda89.chunk.css",
+    "static/js/main.bb89bc7c.chunk.js"
   ]
 }
