@@ -5,6 +5,7 @@ import Header from "../header/header";
 import Main from "../main/main";
 import Offers from "../offers/Offers";
 import Footer from "../footer/Footer";
+import { FaArrowCircleLeft, FaArrowCircleRight } from "react-icons/fa";
 
 class MainPageView extends Component {
   state = {
@@ -31,14 +32,12 @@ class MainPageView extends Component {
     this.setState((prevState) => ({
       index: prevState.index + 1,
     }));
-    clearInterval(this.interval);
   };
 
   prevProperty = () => {
     this.setState((prevState) => ({
       index: prevState.index - 1,
     }));
-    clearInterval(this.interval);
   };
   render() {
     const { properties, index } = this.state;
@@ -53,14 +52,14 @@ class MainPageView extends Component {
               onClick={() => this.prevProperty()}
               disabled={this.state.index === 0}
             >
-              Prev
+              <FaArrowCircleLeft size="30px" color="#f2632c" />
             </button>
             <button
               className={styles.btnNext}
               onClick={() => this.nextProperty()}
               disabled={this.state.index === data.properties.length - 1}
             >
-              Next
+              <FaArrowCircleRight size="30px" color="#f2632c" />
             </button>
             <h1 className={styles.title}>PROMOCJE</h1>
             <div className={styles.offers}>

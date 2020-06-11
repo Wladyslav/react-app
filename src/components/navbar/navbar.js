@@ -42,7 +42,7 @@ const Navbar = ({ openNav, navStatus }) => (
             className={styles.itemLink}
             to="/materials"
           >
-            Materiały eklspoatacyjne
+            Materiały eksploatacyjne
           </NavLink>
         </li>
         <li className={styles.navItem}>
@@ -70,15 +70,6 @@ const Navbar = ({ openNav, navStatus }) => (
             to="/service"
           >
             Serwis
-          </NavLink>
-        </li>
-        <li className={styles.navItem}>
-          <NavLink
-            activeClassName={styles.itemLinkActive}
-            className={styles.itemLink}
-            to="/materials"
-          >
-            Kontakt
           </NavLink>
         </li>
       </ul>

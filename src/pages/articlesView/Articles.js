@@ -29,6 +29,18 @@ const Articles = () => (
       product={"Kyocera ECOSYS P3060dn"}
       price={"3699,00"}
     />
+    <Article
+      image={kyocera3060}
+      alt={"kyocera p3060dn"}
+      product={"Kyocera ECOSYS P3060dn"}
+      price={"3699,00"}
+    />
+    <Article
+      image={kyocera3060}
+      alt={"kyocera p3060dn"}
+      product={"Kyocera ECOSYS P3060dn"}
+      price={"3699,00"}
+    />
   </div>
 );
 

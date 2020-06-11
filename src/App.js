@@ -23,7 +23,7 @@ class App extends Component {
     const { isNavOpen } = this.state;
 
     return (
-      <BrowserRouter>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
         <>
           <Nav navStatus={isNavOpen} />
           <Navbar openNav={this.openNav} navStatus={isNavOpen} />

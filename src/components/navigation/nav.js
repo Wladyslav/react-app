@@ -64,16 +64,6 @@ const Nav = ({ navStatus }) => (
           Serwis
         </NavLink>
       </li>
-
-      <li className={styles.item}>
-        <NavLink
-          activeClassName={styles.itemLinkActive}
-          className={styles.itemLink}
-          to=""
-        >
-          Kontakt
-        </NavLink>
-      </li>
     </ul>
   </nav>
 );

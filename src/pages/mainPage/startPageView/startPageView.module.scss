@@ -13,7 +13,6 @@
   display: flex;
   flex-wrap: wrap;
   grid-area: offers;
-
   margin: 0 auto;
   width: 90vw;
   max-width: 1000px;
@@ -31,14 +30,16 @@
     z-index: 1;
     right: 5%;
     top: 50%;
-    background-color: red;
+    background-color: transparent;
+    border: none;
   }
   .btnPrev {
     position: absolute;
     z-index: 1;
     left: 5%;
     top: 50%;
-    background-color: red;
+    background-color: transparent;
+    border: none;
   }
 }
 .offers {

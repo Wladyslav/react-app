@@ -1,8 +1,11 @@
 .main {
   margin: 0 auto;
   grid-area: main;
+  width: 90vw;
+  max-width: 1000px;
   .catName {
     font-size: 22px;
+
     margin: 10px;
     border-bottom: 5px solid rgb(233, 233, 233);
   }

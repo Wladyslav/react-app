@@ -1,18 +1,30 @@
 .footer {
   margin: 0 auto;
   grid-area: footer;
+  width: 90vw;
   max-width: 1000px;
-  width: 98vw;
   .name {
     font-size: 22px;
     margin: 10px;
     border-bottom: 5px solid rgb(233, 233, 233);
   }
 }
-.about {
-  margin-top: 20px;
-  text-align: center;
-  .shop {
-    font-size: 18px;
+.dataWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  .information {
+    width: 100%;
+    @media screen and (min-width: (1000px)) {
+      width: 32%;
+      flex-wrap: nowrap;
+      justify-content: space-around;
+    }
+    margin: 10px 5px;
+    text-align: center;
+  }
+  .informationTitle {
+    margin-bottom: 8px;
   }
 }

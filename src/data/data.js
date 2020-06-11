@@ -1,4 +1,3 @@
-import React from "react";
 import kyocera2040 from "../files/kyoceram2040dn.png";
 import KyoceraTK140 from "../files/Kyocera TK140.png";
 import KyoceraP2235DN from "../files/P2235DN.png";
