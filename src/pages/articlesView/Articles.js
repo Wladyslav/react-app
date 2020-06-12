@@ -1,46 +1,19 @@
 import React from "react";
 import styles from "./articles.module.scss";
-import Article from "../../components/item/Item";
-import kyocera3060 from "../../files/kyocerap3060dn.jpg";
+import Item from "../../components/item/Item";
+import articlesData from "../../data/articlesData";
 
 const Articles = () => (
   <div className={styles.wrapper}>
-    <Article
-      image={kyocera3060}
-      alt={"kyocera p3060dn"}
-      product={"Kyocera ECOSYS P3060dn"}
-      price={"3699,00"}
-    />
-    <Article
-      image={kyocera3060}
-      alt={"kyocera p3060dn"}
-      product={"Kyocera ECOSYS P3060dn"}
-      price={"3699,00"}
-    />
-    <Article
-      image={kyocera3060}
-      alt={"kyocera p3060dn"}
-      product={"Kyocera ECOSYS P3060dn"}
-      price={"3699,00"}
-    />
-    <Article
-      image={kyocera3060}
-      alt={"kyocera p3060dn"}
-      product={"Kyocera ECOSYS P3060dn"}
-      price={"3699,00"}
-    />
-    <Article
-      image={kyocera3060}
-      alt={"kyocera p3060dn"}
-      product={"Kyocera ECOSYS P3060dn"}
-      price={"3699,00"}
-    />
-    <Article
-      image={kyocera3060}
-      alt={"kyocera p3060dn"}
-      product={"Kyocera ECOSYS P3060dn"}
-      price={"3699,00"}
-    />
+    {articlesData.map((article) => (
+      <Item
+        key={article.id}
+        image={article.image}
+        alt={article.alt}
+        product={article.product}
+        price={article.price}
+      />
+    ))}
   </div>
 );
 
