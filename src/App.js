@@ -25,7 +25,7 @@ class App extends Component {
     return (
       <BrowserRouter basename={process.env.PUBLIC_URL}>
         <>
-          <Nav navStatus={isNavOpen} />
+          <Nav openNav={this.openNav} navStatus={isNavOpen} />
           <Navbar openNav={this.openNav} navStatus={isNavOpen} />
           <Switch>
             <Route exact path="/" component={StartPageView} />

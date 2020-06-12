@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./nav.module.scss";
 import { NavLink } from "react-router-dom";
 
-const Nav = ({ navStatus }) => (
+const Nav = ({ openNav, navStatus }) => (
   <nav
     className={
       navStatus ? `${styles.navigation} ${styles.open}` : `${styles.navigation}`
@@ -65,6 +65,12 @@ const Nav = ({ navStatus }) => (
         </NavLink>
       </li>
     </ul>
+    <div
+      onClick={openNav}
+      className={
+        navStatus ? `${styles.bodyCover} ${styles.open}` : `${styles.bodyCover}`
+      }
+    ></div>
   </nav>
 );
 export default Nav;
