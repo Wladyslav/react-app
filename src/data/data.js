@@ -7,21 +7,18 @@ const data = {
     {
       id: 0,
       productName: "Urządzenie KYOCERA Ecosys M2040dn",
-
       productImage: kyocera2040,
       productPrice: "1400zł",
     },
     {
       id: 1,
       productName: "Toner Oryginalny Kyocera TK-140",
-
       productImage: KyoceraTK140,
       productPrice: "250 zł",
     },
     {
       id: 2,
       productName: "Drukarka KYOCERA Ecosys P2235DN",
-
       productImage: KyoceraP2235DN,
       productPrice: "860 zł",
     },

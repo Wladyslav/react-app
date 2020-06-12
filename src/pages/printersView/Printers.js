@@ -1,46 +1,19 @@
 import React from "react";
 import styles from "./printers.module.scss";
-import Printer from "../../components/item/Item";
-import kyocera3060 from "../../files/kyocerap3060dn.jpg";
+import Item from "../../components/item/Item";
+import printersData from "../../data/printersData";
 
 const Printers = () => (
   <div className={styles.wrapper}>
-    <Printer
-      image={kyocera3060}
-      alt={"kyocera p3060dn"}
-      product={"Kyocera ECOSYS P3060dn"}
-      price={"3699,00"}
-    />
-    <Printer
-      image={kyocera3060}
-      alt={"kyocera p3060dn"}
-      product={"Kyocera ECOSYS P3060dn"}
-      price={"3699,00"}
-    />
-    <Printer
-      image={kyocera3060}
-      alt={"kyocera p3060dn"}
-      product={"Kyocera ECOSYS P3060dn"}
-      price={"3699,00"}
-    />
-    <Printer
-      image={kyocera3060}
-      alt={"kyocera p3060dn"}
-      product={"Kyocera ECOSYS P3060dn"}
-      price={"3699,00"}
-    />
-    <Printer
-      image={kyocera3060}
-      alt={"kyocera p3060dn"}
-      product={"Kyocera ECOSYS P3060dn"}
-      price={"3699,00"}
-    />
-    <Printer
-      image={kyocera3060}
-      alt={"kyocera p3060dn"}
-      product={"Kyocera ECOSYS P3060dn"}
-      price={"3699,00"}
-    />
+    {printersData.map((printer) => (
+      <Item
+        key={printer.id}
+        image={printer.image}
+        alt={printer.alt}
+        product={printer.product}
+        price={printer.price}
+      />
+    ))}
   </div>
 );
 
