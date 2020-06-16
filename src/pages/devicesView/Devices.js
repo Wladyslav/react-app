@@ -1,7 +1,7 @@
-import React from "react";
-import styles from "./devices.module.scss";
-import Item from "../../components/item/Item";
-import devicesData from "../../data/devicesData";
+import React from 'react';
+import styles from './devices.module.scss';
+import Item from '../../components/item/Item';
+import devicesData from '../../data/devicesData';
 
 const Devices = () => (
   <div className={styles.wrapper}>

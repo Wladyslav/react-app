@@ -1,14 +1,14 @@
-import React, { Component } from "react";
-import { Route, BrowserRouter, Switch } from "react-router-dom";
+import React, { Component } from 'react';
+import { Route, BrowserRouter, Switch } from 'react-router-dom';
 
-import Navbar from "./components/navbar/navbar";
-import Nav from "./components/navigation/nav";
-import StartPageView from "./pages/mainPage/startPageView/StartPageView";
-import PrintersView from "./pages/printersView/PrintersView";
-import MaterialsView from "./pages/materialsView/MaterialsView";
-import DevicesView from "./pages/devicesView/DevicesView";
-import ArticlesView from "./pages/articlesView/ArticlesView";
-import ServiceView from "./pages/serviceView/ServiceView";
+import Navbar from './components/navbar/navbar';
+import Nav from './components/navigation/nav';
+import StartPageView from './pages/mainPage/startPageView/StartPageView';
+import PrintersView from './pages/printersView/PrintersView';
+import MaterialsView from './pages/materialsView/MaterialsView';
+import DevicesView from './pages/devicesView/DevicesView';
+import ArticlesView from './pages/articlesView/ArticlesView';
+import ServiceView from './pages/serviceView/ServiceView';
 
 class App extends Component {
   state = {

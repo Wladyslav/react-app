@@ -1,7 +1,7 @@
-import React from "react";
-import styles from "./articles.module.scss";
-import Item from "../../components/item/Item";
-import articlesData from "../../data/articlesData";
+import React from 'react';
+import styles from './articles.module.scss';
+import Item from '../../components/item/Item';
+import articlesData from '../../data/articlesData';
 
 const Articles = () => (
   <div className={styles.wrapper}>

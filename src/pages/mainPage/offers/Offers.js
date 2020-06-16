@@ -1,5 +1,5 @@
-import React from "react";
-import styles from "./offers.module.scss";
+import React from 'react';
+import styles from './offers.module.scss';
 
 const Offers = ({ property, index }) => (
   <div
@@ -9,14 +9,8 @@ const Offers = ({ property, index }) => (
     }}
   >
     <h2 className={styles.productName}>{property.productName}</h2>
-    <img
-      className={styles.offerImg}
-      src={property.productImage}
-      alt={property.productName}
-    />
-    <h3 className={styles.productPrice}>
-      Cena promocyjna {property.productPrice}
-    </h3>
+    <img className={styles.offerImg} src={property.productImage} alt={property.productName} />
+    <h3 className={styles.productPrice}>Cena promocyjna {property.productPrice}</h3>
   </div>
 );
 export default Offers;

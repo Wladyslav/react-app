@@ -1,6 +1,6 @@
-import React from "react";
-import styles from "./product.module.scss";
-import { Link } from "react-router-dom";
+import React from 'react';
+import styles from './product.module.scss';
+import { Link } from 'react-router-dom';
 
 const Product = ({ name, picture, description, pathPage }) => (
   <Link className={styles.link} to={pathPage}>

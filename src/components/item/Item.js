@@ -1,5 +1,5 @@
-import React from "react";
-import styles from "./item.module.scss";
+import React from 'react';
+import styles from './item.module.scss';
 
 const Item = ({ handlePopupOpen, image, alt, product, price }) => (
   <div onClick={handlePopupOpen} className={styles.printer}>

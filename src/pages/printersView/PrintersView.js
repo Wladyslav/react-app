@@ -1,27 +1,26 @@
-import React, { Component } from "react";
-
-import styles from "./printersView.module.scss";
-import Item from "../../components/item/Item";
-import printersData from "../../data/printersData";
+import React, { Component } from 'react';
+import styles from './printersView.module.scss';
+import Item from '../../components/item/Item';
+import printersData from '../../data/printersData';
 
 class PrintersView extends Component {
   state = {
     itemId: 0,
     isPopupOpen: false,
   };
+
   handlePopupClose = () => {
     this.setState((prevState) => ({
       isPopupOpen: !prevState.isPopupOpen,
     }));
   };
+
   render() {
     const currentID = this.state.itemId;
 
     return (
       <div className={styles.wrapper}>
-        <h1 className={styles.title}>
-          DRUKARKI I URZĄDZENIA WIELOFUNKCYJNE{console.log(this.state.itemId)}
-        </h1>
+        <h1 className={styles.title}>DRUKARKI I URZĄDZENIA WIELOFUNKCYJNE</h1>
 
         <div className={styles.printers}>
           {printersData.map((printer) => (
@@ -41,7 +40,6 @@ class PrintersView extends Component {
           ))}
         </div>
         <div
-          // onClick={this.handlePopupClose}
           className={
             this.state.isPopupOpen
               ? `${styles.displayCover} ${styles.open}`
@@ -49,9 +47,8 @@ class PrintersView extends Component {
           }
         >
           <div className={styles.popup}>
-            <h1 className={styles.popupTitle}>
-              {printersData[this.state.itemId].product}
-            </h1>
+            <div onClick={this.handlePopupClose} className={styles.btn} />
+            <h1 className={styles.popupTitle}>{printersData[this.state.itemId].product}</h1>
             <div className={styles.productDescription}>
               <ul className={styles.listWrapper}>
                 {printersData[currentID].descriptions.map((description) => (
@@ -66,9 +63,7 @@ class PrintersView extends Component {
               src={printersData[currentID].image}
               alt={printersData[currentID].product}
             />
-            <h1 className={styles.price}>
-              Cena: {printersData[currentID].price} zł
-            </h1>
+            <h1 className={styles.price}>Cena: {printersData[currentID].price} zł</h1>
           </div>
         </div>
       </div>

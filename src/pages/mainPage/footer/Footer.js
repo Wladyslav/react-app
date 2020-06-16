@@ -1,6 +1,6 @@
-import React from "react";
-import styles from "./footer.module.scss";
-import { FcCustomerSupport, FcShop, FcAbout } from "react-icons/fc";
+import React from 'react';
+import styles from './footer.module.scss';
+import { FcCustomerSupport, FcShop, FcAbout } from 'react-icons/fc';
 
 const Footer = () => (
   <footer className={styles.footer}>
@@ -30,9 +30,8 @@ const Footer = () => (
           Informacje dodatkowe
         </h2>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus
-          earum quas porro fugit quo unde, voluptatem veritatis neque quasi
-          aspernatur.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus earum quas porro fugit
+          quo unde, voluptatem veritatis neque quasi aspernatur.
         </p>
       </div>
     </div>

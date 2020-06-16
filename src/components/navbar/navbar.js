@@ -1,9 +1,9 @@
-import React from "react";
-import styles from "./navbar.module.scss";
-import logoMobi from "../../files/logoMobi.png";
-import logo from "../../files/logo1.png";
-import { Link } from "react-router-dom";
-import { NavLink } from "react-router-dom";
+import React from 'react';
+import styles from './navbar.module.scss';
+import logoMobi from '../../files/logoMobi.png';
+import logo from '../../files/logo1.png';
+import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 const Navbar = ({ openNav, navStatus }) => (
   <div className={styles.navbar}>
@@ -18,12 +18,7 @@ const Navbar = ({ openNav, navStatus }) => (
     <div className={styles.desctopNav}>
       <ul className={styles.navList}>
         <li className={styles.navItem}>
-          <NavLink
-            exact
-            activeClassName={styles.itemLinkActive}
-            className={styles.itemLink}
-            to="/"
-          >
+          <NavLink exact activeClassName={styles.itemLinkActive} className={styles.itemLink} to="/">
             Strona główna
           </NavLink>
         </li>
@@ -76,9 +71,7 @@ const Navbar = ({ openNav, navStatus }) => (
     </div>
     <div
       onClick={openNav}
-      className={
-        navStatus ? `${styles.hamburger} ${styles.open}` : `${styles.hamburger}`
-      }
+      className={navStatus ? `${styles.hamburger} ${styles.open}` : `${styles.hamburger}`}
     >
       <div className={styles.btn}></div>
     </div>

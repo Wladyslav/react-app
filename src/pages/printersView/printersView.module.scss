@@ -34,6 +34,7 @@
     flex-grow: 1;
     display: flex;
     flex-wrap: wrap;
+    position: relative;
 
     max-width: 1000px;
     justify-content: space-evenly;
@@ -94,5 +95,28 @@
         background-color: #f15114;
       }
     }
+  }
+}
+
+.btn {
+  top: 20px;
+  right: 20px;
+  width: 25px;
+  height: 4px;
+  cursor: pointer;
+  background: black;
+  border-radius: 2px;
+  box-shadow: 0 2px 5px rgba(225, 101, 47, 0.2);
+  position: absolute;
+  transform: rotate(-45deg);
+  &::before {
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 4px;
+    background: black;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(225, 101, 47, 0.2);
+    transform: rotate(90deg);
   }
 }

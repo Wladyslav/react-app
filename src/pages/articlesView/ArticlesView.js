@@ -1,6 +1,6 @@
-import React from "react";
-import styles from "./articlesView.module.scss";
-import Articles from "./Articles";
+import React from 'react';
+import styles from './articlesView.module.scss';
+import Articles from './Articles';
 
 const ArticlesView = () => (
   <div className={styles.wrapper}>

@@ -1,10 +1,10 @@
-import React from "react";
-import styles from "./main.module.scss";
-import Product from "../../../components/product/product";
-import materials from "../../../files/icon-materials.svg";
-import printers from "../../../files/icon-printers.svg";
-import device from "../../../files/icon-gilotin.svg";
-import stuff from "../../../files/icon-erector.svg";
+import React from 'react';
+import styles from './main.module.scss';
+import Product from '../../../components/product/product';
+import materials from '../../../files/icon-materials.svg';
+import printers from '../../../files/icon-printers.svg';
+import device from '../../../files/icon-gilotin.svg';
+import stuff from '../../../files/icon-erector.svg';
 
 const Main = () => (
   <main className={styles.main}>

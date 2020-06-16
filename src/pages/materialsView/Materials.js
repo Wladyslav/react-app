@@ -1,7 +1,7 @@
-import React from "react";
-import styles from "./materials.module.scss";
-import Item from "../../components/item/Item";
-import materialsData from "../../data/materialsData";
+import React from 'react';
+import styles from './materials.module.scss';
+import Item from '../../components/item/Item';
+import materialsData from '../../data/materialsData';
 
 const Materials = () => (
   <div className={styles.wrapper}>

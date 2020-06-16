@@ -1,6 +1,6 @@
-import React from "react";
-import styles from "./materialsView.module.scss";
-import Materials from "./Materials";
+import React from 'react';
+import styles from './materialsView.module.scss';
+import Materials from './Materials';
 
 const MaterialsView = () => (
   <div className={styles.wrapper}>

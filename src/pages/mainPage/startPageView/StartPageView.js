@@ -1,11 +1,11 @@
-import React, { Component } from "react";
-import data from "../../../data/data";
-import styles from "./startPageView.module.scss";
-import Header from "../header/header";
-import Main from "../main/main";
-import Offers from "../offers/Offers";
-import Footer from "../footer/Footer";
-import { FaArrowCircleLeft, FaArrowCircleRight } from "react-icons/fa";
+import React, { Component } from 'react';
+import data from '../../../data/data';
+import styles from './startPageView.module.scss';
+import Header from '../header/header';
+import Main from '../main/main';
+import Offers from '../offers/Offers';
+import Footer from '../footer/Footer';
+import { FaArrowCircleLeft, FaArrowCircleRight } from 'react-icons/fa';
 
 class MainPageView extends Component {
   state = {
