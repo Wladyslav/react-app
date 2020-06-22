@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { Route, BrowserRouter, Switch } from 'react-router-dom';
-
 import Navbar from './components/navbar/navbar';
 import Nav from './components/navigation/nav';
 import StartPageView from './pages/mainPage/startPageView/StartPageView';

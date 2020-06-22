@@ -25,6 +25,7 @@ Input.propTypes = {
   type: PropTypes.string.isRequired,
   name: PropTypes.string.isRequired,
   label: PropTypes.string.isRequired,
+  maxLength: PropTypes.number,
 };
 Input.defaultProps = {
   tag: 'input',

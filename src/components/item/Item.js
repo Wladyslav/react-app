@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import styles from './item.module.scss';
 
 const Item = ({ handlePopupOpen, image, alt, product, price }) => (
@@ -8,5 +9,11 @@ const Item = ({ handlePopupOpen, image, alt, product, price }) => (
     <h1 className={styles.price}>{price} zł</h1>
   </div>
 );
-
+Item.propTypes = {
+  handlePopupOpen: PropTypes.func,
+  image: PropTypes.string,
+  alt: PropTypes.string,
+  product: PropTypes.string,
+  price: PropTypes.string,
+};
 export default Item;

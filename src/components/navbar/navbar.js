@@ -4,6 +4,7 @@ import logoMobi from '../../files/logoMobi.png';
 import logo from '../../files/logo1.png';
 import { Link } from 'react-router-dom';
 import { NavLink } from 'react-router-dom';
+import PropTypes from 'prop-types';
 
 const Navbar = ({ openNav, navStatus }) => (
   <div className={styles.navbar}>
@@ -77,4 +78,9 @@ const Navbar = ({ openNav, navStatus }) => (
     </div>
   </div>
 );
+Navbar.propTypes = {
+  openNav: PropTypes.func,
+  navStatus: PropTypes.bool,
+};
+
 export default Navbar;

@@ -1,3 +1,4 @@
+@import '../../sass/variables.scss';
 .wrapper {
   margin: 0 auto;
   max-width: 1000px;
@@ -88,7 +89,7 @@
       font-weight: 500;
       border: transparent;
       color: white;
-      background-color: #f2632c;
+      background-color: $main-color-bright;
       border-radius: 10px;
       padding: 8px 20px;
       &:hover {
