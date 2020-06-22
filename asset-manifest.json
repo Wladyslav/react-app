@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/react-app/static/css/main.7d3ab204.chunk.css",
+    "main.css": "/react-app/static/css/main.2e0ffaa9.chunk.css",
     "main.js": "/react-app/static/js/main.ae0c6f3f.chunk.js",
     "main.js.map": "/react-app/static/js/main.ae0c6f3f.chunk.js.map",
     "runtime-main.js": "/react-app/static/js/runtime-main.f77147b9.js",
@@ -8,9 +8,9 @@
     "static/js/2.f8172596.chunk.js": "/react-app/static/js/2.f8172596.chunk.js",
     "static/js/2.f8172596.chunk.js.map": "/react-app/static/js/2.f8172596.chunk.js.map",
     "index.html": "/react-app/index.html",
-    "precache-manifest.e48938226d4d68d42647553b34839872.js": "/react-app/precache-manifest.e48938226d4d68d42647553b34839872.js",
+    "precache-manifest.241fa159a05ba2590ff3fa07975f529d.js": "/react-app/precache-manifest.241fa159a05ba2590ff3fa07975f529d.js",
     "service-worker.js": "/react-app/service-worker.js",
-    "static/css/main.7d3ab204.chunk.css.map": "/react-app/static/css/main.7d3ab204.chunk.css.map",
+    "static/css/main.2e0ffaa9.chunk.css.map": "/react-app/static/css/main.2e0ffaa9.chunk.css.map",
     "static/js/2.f8172596.chunk.js.LICENSE.txt": "/react-app/static/js/2.f8172596.chunk.js.LICENSE.txt",
     "static/media/Kyocera TK140.png": "/react-app/static/media/Kyocera TK140.d79c90c6.png",
     "static/media/P2235DN.png": "/react-app/static/media/P2235DN.7048da23.png",
@@ -25,7 +25,7 @@
   "entrypoints": [
     "static/js/runtime-main.f77147b9.js",
     "static/js/2.f8172596.chunk.js",
-    "static/css/main.7d3ab204.chunk.css",
+    "static/css/main.2e0ffaa9.chunk.css",
     "static/js/main.ae0c6f3f.chunk.js"
   ]
 }
