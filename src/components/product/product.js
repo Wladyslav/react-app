@@ -14,7 +14,7 @@ const Product = ({ name, picture, description, pathPage }) => (
 Product.propTypes = {
   name: PropTypes.string,
   picture: PropTypes.string,
-  description: PropTypes.arrayOf(PropTypes.string),
+  // description: PropTypes.arrayOf(PropTypes.string),
   pathPage: PropTypes.string,
 };
 export default Product;
